@@ -27,6 +27,7 @@ const Meetups = (props) => {
                 key={idx}
               />
             );
+          return;
         })}
       {props.mode === "Sch" &&
         props.meetups.map((meetup, idx) => {
@@ -39,6 +40,7 @@ const Meetups = (props) => {
                 key={idx}
               />
             );
+          return;
         })}
     </div>
   );
