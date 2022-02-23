@@ -1,0 +1,12 @@
+.header {
+  height: 70px;
+  background-color: #810000;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+}
